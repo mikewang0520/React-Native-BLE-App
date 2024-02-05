@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.blescannerapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:4:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:5:5-73
+13-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:5:22-71
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:6:5-78
+14-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->[:react-native-ble-manager] /Users/mike/Desktop/Learning/ReactNative/BleScannerApp/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+15-->[:react-native-ble-manager] /Users/mike/Desktop/Learning/ReactNative/BleScannerApp/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+16
+17    <uses-feature
+17-->[:react-native-ble-manager] /Users/mike/Desktop/Learning/ReactNative/BleScannerApp/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:36
+18        android:name="android.hardware.bluetooth_le"
+18-->[:react-native-ble-manager] /Users/mike/Desktop/Learning/ReactNative/BleScannerApp/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-53
+19        android:required="false" />
+19-->[:react-native-ble-manager] /Users/mike/Desktop/Learning/ReactNative/BleScannerApp/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-33
+20    <!--
+21    This manifest file is used only by Gradle to configure debug-only capabilities
+22    for React Native Apps.
+23    -->
+24    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+24-->[com.facebook.react:react-android:0.73.3] /Users/mike/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/AndroidManifest.xml:16:5-78
+24-->[com.facebook.react:react-android:0.73.3] /Users/mike/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/AndroidManifest.xml:16:22-75
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->[com.facebook.flipper:flipper:0.201.0] /Users/mike/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:5-76
+25-->[com.facebook.flipper:flipper:0.201.0] /Users/mike/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:22-73
+26
+27    <permission
+27-->[androidx.core:core:1.9.0] /Users/mike/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+28        android:name="com.blescannerapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.9.0] /Users/mike/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.9.0] /Users/mike/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.blescannerapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.9.0] /Users/mike/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.9.0] /Users/mike/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:9:5-28:19
+34        android:name="com.blescannerapp.MainApplication"
+34-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:10:7-38
+35        android:allowBackup="false"
+35-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:14:7-34
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] /Users/mike/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:12:7-41
+40        android:label="@string/app_name"
+40-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:11:7-39
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:13:7-52
+42        android:theme="@style/AppTheme"
+42-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:15:7-38
+43        android:usesCleartextTraffic="true" >
+43-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/debug/AndroidManifest.xml:6:9-44
+44        <activity
+44-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:16:7-27:18
+45            android:name="com.blescannerapp.MainActivity"
+45-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:17:9-37
+46            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+46-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:19:9-118
+47            android:exported="true"
+47-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:22:9-32
+48            android:label="@string/app_name"
+48-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:18:9-41
+49            android:launchMode="singleTask"
+49-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:20:9-40
+50            android:windowSoftInputMode="adjustResize" >
+50-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:21:9-51
+51            <intent-filter>
+51-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:23:9-26:25
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:24:13-65
+52-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:24:21-62
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:25:13-73
+54-->/Users/mike/Desktop/Learning/ReactNative/BleScannerApp/android/app/src/main/AndroidManifest.xml:25:23-70
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->[com.facebook.react:react-android:0.73.3] /Users/mike/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/AndroidManifest.xml:19:9-21:40
+58            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+58-->[com.facebook.react:react-android:0.73.3] /Users/mike/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/AndroidManifest.xml:20:13-77
+59            android:exported="false" />
+59-->[com.facebook.react:react-android:0.73.3] /Users/mike/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/AndroidManifest.xml:21:13-37
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/mike/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/mike/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+63            android:authorities="com.blescannerapp.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/mike/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/mike/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.2.0] /Users/mike/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.2.0] /Users/mike/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.2.0] /Users/mike/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mike/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mike/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mike/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+71        </provider>
+72
+73        <meta-data
+73-->[com.facebook.soloader:soloader:0.10.5] /Users/mike/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+74            android:name="com.facebook.soloader.enabled"
+74-->[com.facebook.soloader:soloader:0.10.5] /Users/mike/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+75            android:value="false" />
+75-->[com.facebook.soloader:soloader:0.10.5] /Users/mike/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+76    </application>
+77
+78</manifest>

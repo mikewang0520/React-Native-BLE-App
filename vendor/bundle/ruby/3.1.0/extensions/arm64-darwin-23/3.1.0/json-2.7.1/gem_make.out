@@ -1,0 +1,16 @@
+current directory: /Users/mike/Desktop/Learning/ReactNative/BleScannerApp/vendor/bundle/ruby/3.1.0/gems/json-2.7.1/ext/json
+/opt/homebrew/opt/ruby@3.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/mike/Desktop/Learning/ReactNative/BleScannerApp/vendor/bundle/ruby/3.1.0/gems/json-2.7.1/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240201-6515-7swwp2 sitelibdir\=./.gem.20240201-6515-7swwp2 clean
+
+current directory: /Users/mike/Desktop/Learning/ReactNative/BleScannerApp/vendor/bundle/ruby/3.1.0/gems/json-2.7.1/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240201-6515-7swwp2 sitelibdir\=./.gem.20240201-6515-7swwp2
+make: Nothing to be done for `all'.
+
+current directory: /Users/mike/Desktop/Learning/ReactNative/BleScannerApp/vendor/bundle/ruby/3.1.0/gems/json-2.7.1/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240201-6515-7swwp2 sitelibdir\=./.gem.20240201-6515-7swwp2 install
+
+current directory: /Users/mike/Desktop/Learning/ReactNative/BleScannerApp/vendor/bundle/ruby/3.1.0/gems/json-2.7.1/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240201-6515-7swwp2 sitelibdir\=./.gem.20240201-6515-7swwp2 clean

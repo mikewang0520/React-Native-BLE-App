@@ -1,0 +1,6 @@
+module Pods_BleScannerApp_BleScannerAppTests {
+  umbrella header "Pods-BleScannerApp-BleScannerAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
