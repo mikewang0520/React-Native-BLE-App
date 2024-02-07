@@ -68,6 +68,7 @@ const BleScannerApp = () => {
               {item.name || "Unnamed Device"}
             </Text>
             <Text>ID: {item.id}</Text>
+            <Button title={item.isConnected ? "Connected" : "Connect"} />
           </View>
         )}
       />
@@ -84,7 +85,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#3f96b4",
   },
   button: {
-    marginTop: 0,
+    marginTop: -30,
   },
   device: {
     marginTop: 10,
