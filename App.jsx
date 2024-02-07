@@ -6,6 +6,7 @@ import {
   Button,
   FlatList,
   Platform,
+  Image,
 } from "react-native";
 import BleManager from "react-native-ble-manager";
 
@@ -51,8 +52,12 @@ const BleScannerApp = () => {
 
   return (
     <View style={styles.container}>
+      <Image
+        style={{ width: 170, height: 170, top: 0, position: "relative" }}
+        source={require("./app/assets/ergoicon.jpg")}
+      />
       <View style={styles.button}>
-        <Button title="Start Scanning!" onPress={startScanning} />
+        <Button title="Start Scanning" onPress={startScanning} />
       </View>
       <FlatList
         data={devices}
@@ -76,10 +81,10 @@ const styles = StyleSheet.create({
     padding: 20,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#265d70",
+    backgroundColor: "#3f96b4",
   },
   button: {
-    marginTop: 40,
+    marginTop: 0,
   },
   device: {
     marginTop: 10,
