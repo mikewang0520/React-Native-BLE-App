@@ -1,8 +1,8 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import DeviceDetailsScreen from "./DeviceDetailsScreen.jsx"; // Import your new screen
-import HomeScreen from "./Homepage.jsx"; // Assume your existing app content is moved here
+import DeviceDetailsScreen from "./DeviceDetailsScreen.jsx";
+import HomeScreen from "./Homepage.jsx";
 
 const Stack = createNativeStackNavigator();
 

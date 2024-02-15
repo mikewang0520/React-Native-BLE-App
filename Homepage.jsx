@@ -30,7 +30,7 @@ const HomeScreen = ({ navigation }) => {
           );
         })
         .catch((error) => {
-          console.log(error);
+          console.log("BleManager Error:" + error);
         });
     }
 
@@ -51,18 +51,7 @@ const HomeScreen = ({ navigation }) => {
   };
 
   const connectToDevice = (device) => {
-    // Promise that attempts to connect
-    const connectPromise = BleManager.connect(device.id);
-
-    // Timeout promise that rejects after 5 seconds
-    const timeoutPromise = new Promise((resolve, reject) => {
-      setTimeout(() => {
-        reject("Connection timeout");
-      }, 5000); // 5 seconds timeout
-    });
-
-    // Race the connect promise against the timeout
-    Promise.race([connectPromise, timeoutPromise])
+    BleManager.connect(device.id)
       .then(() => {
         // Navigate on successful connection
         navigation.navigate("DeviceDetails", {
@@ -71,17 +60,9 @@ const HomeScreen = ({ navigation }) => {
         });
       })
       .catch((error) => {
-        if (error === "Connection timeout") {
-          // Handle the timeout specific error
-          console.log("Timeout...");
-          Alert.alert(
-            "Connection Timeout",
-            "Failed to connect to the device within the time limit."
-          );
-        } else {
-          // Handle other types of errors
-          Alert.alert("Connection Failed", "Failed to connect to the device.");
-        }
+        // Log connection failure
+        console.log("Connection failed");
+        Alert.alert("Connection Failed", "Failed to connect to the device.");
       });
   };
 
@@ -96,6 +77,7 @@ const HomeScreen = ({ navigation }) => {
         <Button title="Start Scanning" onPress={startScanning} />
       </View>
       <FlatList
+        style={styles.list}
         data={devices}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => (
@@ -125,12 +107,22 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: -30,
+    paddingLeft: 5,
+    paddingRight: 5,
+    borderRadius: 3,
+    backgroundColor: "white",
+  },
+  list: {
+    marginTop: 10,
+    borderRadius: 5,
   },
   device: {
     marginTop: 10,
     padding: 10,
     borderWidth: 1,
+    borderRadius: 5,
     borderColor: "#ccc",
+    backgroundColor: "white",
   },
   deviceName: {
     fontSize: 16,
